@@ -16,18 +16,18 @@ const Planets = (props) => {
                 // setloading(true)
             })
             .catch(error => console.log(error))
-        }, [id]);
+    }, [id]);
 
     return (
         <div>
-                <p>Name: {planet.name}</p>
-                <p>Climate: {planet.climate}</p>
-                <p>Terrain: {planet.terrain}</p>
-                <p>Diameter: {planet.diameter}</p>
-                <p>Gravity : {planet.gravity}</p>
-                <p>Orbital Period : {planet.orbital_period}</p>
-                <p>Population: {planet.population}</p>
-            </div>
+            <p>Name: {planet.name}</p>
+            <p>Climate: {planet.climate}</p>
+            <p>Terrain: {planet.terrain}</p>
+            <p>Diameter: {planet.diameter}</p>
+            <p>Gravity : {planet.gravity}</p>
+            <p>Orbital Period : {planet.orbital_period}</p>
+            <p>Population: {planet.population}</p>
+        </div>
     )
 }
 
