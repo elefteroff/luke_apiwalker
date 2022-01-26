@@ -1,0 +1,58 @@
+{/* {loading ? choice == "People" ? */}
+      {/* //   <table>
+      //     <thead>
+      //       <tr>
+      //         <th>Character Names</th>
+      //       </tr>
+      //     </thead>
+      //     <tbody>
+      //       { */}
+      {/* //         people.map((p, idx) => { */}
+      {/* //           return (
+      //             <tr key={idx}>
+      //               <td>{p.name}</td>
+      //             </tr>
+      //           )
+      //         })}
+      //     </tbody> */
+      //   </table> :
+      //   <table>
+      //     <thead>
+      //       <tr>
+      //         <th>Planet Names</th>
+      //       </tr>
+      //     </thead>
+      //     <tbody>
+      //       {
+      //         planets.map((p, idx) => {
+      //           return (
+      //             <tr key={idx}>
+      //               <td>{p.name}</td>
+      //             </tr>
+      //           )
+      //         })}
+      //     </tbody>
+      //   </table> : <p>loading...</p> */}
+
+
+        // const getAxiosPlanetsOrPeople = (e) => {
+  //   e.preventDefault();
+  //   if (choice == "People") {
+  //     axios.get("https://swapi.dev/api/people")
+  //       .then(response => {
+  //         console.log(response.data.results)
+  //         setPeople(response.data.results)
+  //         setloading(true)
+  //       })
+  //       .catch(error => console.log(error))
+  //   }
+  //   else if (choice == "Planets") {
+  //     axios.get("https://swapi.dev/api/planets")
+  //       .then(response => {
+  //         console.log(response.data.results)
+  //         setPlanets(response.data.results)
+  //         setloading(true)
+  //       })
+  //       .catch(error => console.log(error))
+  //   }
+  // }
